@@ -1,4 +1,4 @@
-$(function () {
+function ancla() {
 
     $('a[href*=#]').click(function () {
 
@@ -19,7 +19,9 @@ $(function () {
         }
     });
 
-});
+};
+
+ancla();
 
 var $bugermenu = document.getElementById("burger-buttom");
 var $menu = document.getElementById("menu");
